@@ -1,14 +1,12 @@
-// var month = d.getMonth()+1;
-// var day = d.getDate();
+var month = d.getMonth()+1;
 
-// var minutes = d.getMinutes();
+var day = d.getDate();
 
-// var output = 
-// (month < 10 ? '0' : '') + month + '-' +
-// (day < 10 ? '0' : '') + day + '-' + 
-// d.getFullYear() + " // " + 
-// d.getHours() + ":" + 
-// d.getMinutes();
+var minutes = d.getMinutes();
+
+var output = (month < 10 ? '0' : '') + month + '-' 
+    + (day < 10 ? '0' : '') + day + '-' 
+    + d.getFullYear() + " // " + d.getHours() + ":" + d.getMinutes();
 
 // Current Day display
 $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
