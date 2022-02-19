@@ -41,6 +41,4 @@ $(document).ready(function () {
     localStorage.removeItem(hourId);
     $(this).siblings("input[type='text']").val(" ");
   }
-
-  $(".trashBtn").on("click", trashEvent);
 });

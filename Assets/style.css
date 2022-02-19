@@ -36,7 +36,7 @@ textarea{
     height: 80px;
     border-top: 1px solid white;
     font-weight: bolder;
-  
+    justify-content: flex-end;
 }
   
 .hour {
